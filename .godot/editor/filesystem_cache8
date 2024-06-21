@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1718762927
+icon.svg::CompressedTexture2D::2950428865958558061::1718403049::1718403059::1::::<><>::
+world.tscn::PackedScene::8602842742410769056::1718676552::0::1::::<><>::res://scripts/game_manager.gd<>uid://bbxhmr5ri1d5j::::res://objects/box-bob.tscn<>uid://c25fuvsdopj2y::::res://objects/supongi-bobu.tscn
+::res://objects/::1718676553
+bob-mal.png::CompressedTexture2D::9096112368151396290::1718674389::1718674414::1::::<><>::
+bob.png::CompressedTexture2D::8536540414725530670::1718408923::1718411323::1::::<><>::
+box-bob.tscn::PackedScene::2504537604175936513::1718676553::0::1::::<><>::uid://dtvftq47kcwg1::::res://objects/bob.png
+supongi-bobu.tscn::PackedScene::6730211910029248394::1718676553::0::1::::<><>::uid://bbxhmr5ri1d5j::::res://objects/box-bob.tscn<>uid://d2uhv24exkcna::::res://objects/bob-mal.png
+::res://scripts/::1718674244
+game_manager.gd::GDScript::-1::1718674244::0::1::::<>Node<>::

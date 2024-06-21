@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://c25fuvsdopj2y"]
+
+[ext_resource type="PackedScene" uid="uid://bbxhmr5ri1d5j" path="res://objects/box-bob.tscn" id="1_inwjb"]
+[ext_resource type="Texture2D" uid="uid://d2uhv24exkcna" path="res://objects/bob-mal.png" id="2_fv6oo"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ulj1x"]
+friction = 0.5
+
+[node name="RigidBody2D" instance=ExtResource("1_inwjb")]
+rotation = 3.14159
+physics_material_override = SubResource("PhysicsMaterial_ulj1x")
+gravity_scale = 5.0
+
+[node name="Bob" parent="CollisionShape2D" index="0"]
+scale = Vector2(0.314946, 0.314946)
+texture = ExtResource("2_fv6oo")
